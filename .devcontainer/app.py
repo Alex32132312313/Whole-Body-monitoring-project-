@@ -10,7 +10,7 @@ from modules import (
 st.set_page_config(layout="wide")
 st.title("🧬 Health Metrics Dashboard")
 
-tabs = st.tabs([
+tab = st.tab([
     "Steps", "Calories", "Heart Rate", "ECG", "SpO2",
     "Menstrual", "Stress", "Body", "Sleep",
     "Sleep Apnea", "Blood Pressure", "Energy",
